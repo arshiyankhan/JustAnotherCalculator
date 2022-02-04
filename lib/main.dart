@@ -116,6 +116,9 @@ class _HomeScreenState extends State<HomeScreen> {
   List functions = ["%", "÷", "x", "-", "+"];
 
   void handleButton(String value, {bool isFunction = false}) {
+    if(currentValue == ''){
+      currentValue = currentResult;
+    }
     if (!isFunction) {
       if (currentValue == "0") {
         removeLastLetter();
