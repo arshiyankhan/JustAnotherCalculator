@@ -32,6 +32,10 @@ dependencies:
 
   flutter_acrylic: ^1.0.0+1
   bitsdojo_window: ^0.1.1+1
+  animated_splash_screen: ^1.1.0
+  flutter_screenutil: ^5.1.1
+  # splashscreen: ^1.2.0
+  # page_transition: "^1.1.6"
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -61,7 +65,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
@@ -81,6 +86,10 @@ flutter:
     - family: poppins
       fonts:
         - asset: fonts/poppins.ttf 
+
+    - family: spartan
+      fonts:
+        - asset: fonts/spartanbold.ttf 
   # fonts:
   #   - family: Schyler
   #     fonts:
