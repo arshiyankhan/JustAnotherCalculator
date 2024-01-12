@@ -1,0 +1,391 @@
+{
+"Meal Box": [
+    {
+      "pid": 1,
+      "name": "Zinger Meal",
+      "price": 229,
+      "description": "1 Zinger Burger, 2 Wings, 1 Fries, 1 Cold Drink (200 ml)",
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 2,
+      "name": "Twister Meal",
+      "price": 249,
+      "description":
+          "1 Crispy Twister, 2 Wings, 1 Fries, 1 Cold Drink (200 ml)",
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 3,
+      "name": "Big Daddy Meal",
+      "price": 299,
+      "description":
+          "1 Big Daddy Burger, 2 Wings, 1 Dip, 1 French Fries, 1 Cold Drink (200 ml)",
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 4,
+      "name": "Family Bucket",
+      "price": 1199,
+      "description":
+          "8 Crispy Fried Chicken, 4 Lollipop, 1 Popcorn, 1 Dip, 1 Fries, 1 Cold Drink (200 ml)",
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 5,
+      "name": "Small Family Bucket",
+      "price": 719,
+      "description":
+          "4 Crispy Chicken, 4 Lollipop, 4 Wings, 1 Dip, 1 Cold Drink (200 ml)",
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 6,
+      "name": "Friends Bucket",
+      "price": 529,
+      "description":
+          "3 Crispy Fried Chicken, 5 Lollipop, 1 Dip, 1 Cold Drink (200 ml)",
+      "foodType": "nonveg"
+    }
+  ],
+  "Chicken Items": [
+    {
+      "pid": 7,
+      "name": "Crispy Chicken",
+      "description": "Delicious crispy chicken for a satisfying crunch.",
+      "sizes": [
+        {"id": "1", "name": "1 piece", "price": 119}
+      ],
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 8,
+      "name": "Chilli Lime Chicken",
+      "description": "Chilli Lime-flavored chicken.",
+      "sizes": [
+        {"id": "1", "name": "3 pieces", "price": 119},
+        {"id": "2", "name": "6 pieces", "price": 299}
+      ],
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 9,
+      "name": "Chicken Wings",
+      "description": "Deliciously seasoned chicken wings.",
+      "sizes": [
+        {"id": "1", "name": "3 pieces", "price": 119},
+        {"id": "2", "name": "6 pieces", "price": 299},
+        {"id": "3", "name": "8 pieces", "price": 249}
+      ],
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 10,
+      "name": "Lollipop",
+      "description": "Lollipop-style chicken treats.",
+      "sizes": [
+        {"id": "1", "name": "4 pieces", "price": 159},
+        {"id": "2", "name": "8 pieces", "price": 179}
+      ],
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 11,
+      "name": "Chicken Nuggets",
+      "description": "Delicious chicken nuggets.",
+      "sizes": [
+        {"id": "1", "name": "8 pieces", "price": 179}
+      ],
+      "foodType": "nonveg"
+    }
+  ],
+  "Mojito": [
+    {
+      "pid": 12,
+      "name": "Mint Mojito",
+      "price": 89,
+      "description": "Refreshing mint-flavored mojito.",
+      "foodType": "veg"
+    },
+    {
+      "pid": 13,
+      "name": "Green Apple Mojito",
+      "price": 89,
+      "description": "A fruity and refreshing green apple mojito.",
+      "foodType": "veg"
+    },
+    {
+      "pid": 14,
+      "name": "Blue Croco",
+      "price": 89,
+      "description": "A cool and blue thirst-quencher.",
+      "foodType": "veg"
+    }
+  ],
+  "Dips": [
+    {
+      "pid": 15,
+      "name": "Mayo Dips",
+      "price": 15,
+      "description": "Classic mayo dip for a creamy touch.",
+      "foodType": "veg"
+    },
+    {
+      "pid": 16,
+      "name": "Peri Peri Dips",
+      "price": 15,
+      "description": "Spicy Peri Peri dip for an extra kick.",
+      "foodType": "veg"
+    },
+    {
+      "pid": 17,
+      "name": "Thousand Island Dips",
+      "price": 15,
+      "description": "Creamy Thousand Island dip for a tangy flavor.",
+      "foodType": "veg"
+    },
+    {
+      "pid": 18,
+      "name": "Cheezy Mayo Dips",
+      "price": 15,
+      "description": "Cheesy mayo dip for a rich and flavorful experience.",
+      "foodType": "veg"
+    },
+    {
+      "pid": 19,
+      "name": "Mexican Dips",
+      "price": 15,
+      "description": "Spicy and savory Mexican-style dip.",
+      "foodType": "veg"
+    },
+    {
+      "pid": 20,
+      "name": "Schzewan Dips",
+      "price": 15,
+      "description": "Hot and flavorful Schzewan dip.",
+      "foodType": "veg"
+    },
+    {
+      "pid": 21,
+      "name": "Garlic Dips",
+      "price": 15,
+      "description": "Garlicky dip for a bold and savory taste.",
+      "foodType": "veg"
+    }
+  ],
+  "Burgers": [
+    {
+      "pid": 22,
+      "name": "Classic Veg Burger",
+      "price": 85,
+      "description": "A timeless classic burger.",
+      "foodType": "veg"
+    },
+    {
+      "pid": 23,
+      "name": "Zinger Veg Burger",
+      "price": 99,
+      "description": "A flavorful and spicy zinger burger.",
+      "foodType": "veg"
+    },
+    {
+      "pid": 24,
+      "name": "Crispy Chicken Zinger",
+      "price": 115,
+      "description": "Zinger-style burger with crispy chicken.",
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 25,
+      "name": "Zinger King",
+      "price": 135,
+      "description": "A royal treat with the Zinger King Burger.",
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 26,
+      "name": "Mexican Chicken Burger",
+      "price": 149,
+      "description": "Burger with a spicy Mexican chicken twist.",
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 27,
+      "name": "Peri Peri Chicken Burger",
+      "price": 155,
+      "description": "Burger with a zesty Peri Peri chicken flavor.",
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 28,
+      "name": "Big Daddy Burger",
+      "price": 169,
+      "description": "A big and hearty burger for a satisfying meal.",
+      "foodType": "nonveg"
+    }
+  ],
+  "Pizzas": [
+    {
+      "pid": 29,
+      "name": "Veg Classic",
+      "description":
+          "Classic Margherita pizza with tomato, mozzarella, and basil.",
+      "sizes": [
+        {"id": "1", "name": "Regular", "price": 159},
+        {"id": "2", "name": "Medium", "price": 220}
+      ],
+      "foodType": "veg"
+    },
+    {
+      "pid": 30,
+      "name": "Mexican Veg Pizza",
+      "description":
+          "Delicious Pepperoni pizza with pepperoni slices and cheese.",
+      "sizes": [
+        {"id": "1", "name": "Regular", "price": 169},
+        {"id": "2", "name": "Medium", "price": 240}
+      ],
+      "foodType": "veg"
+    },
+    {
+      "pid": 31,
+      "name": "Crispy Chicken Pizza",
+      "description":
+          "Delicious Pepperoni pizza with pepperoni slices and cheese.",
+      "sizes": [
+        {"id": "1", "name": "Regular", "price": 220},
+        {"id": "2", "name": "Medium", "price": 350}
+      ],
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 32,
+      "name": "BBQ Chicken Pizza",
+      "description":
+          "Delicious Pepperoni pizza with pepperoni slices and cheese",
+      "sizes": [
+        {"id": "1", "name": "Regular", "price": 230},
+        {"id": "2", "name": "Medium", "price": 360}
+      ],
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 33,
+      "name": "Mexican Chicken Pizza",
+      "description": "Spicy Mexican-style chicken pizza with rich flavors.",
+      "sizes": [
+        {"id": "1", "name": "Regular", "price": 240},
+        {"id": "2", "name": "Medium", "price": 369}
+      ],
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 34,
+      "name": "Al-baik Special",
+      "description": "Special pizza with a unique blend of toppings.",
+      "sizes": [
+        {"id": "1", "name": "Regular", "price": 250},
+        {"id": "2", "name": "Medium", "price": 480}
+      ],
+      "foodType": "nonveg"
+    }
+  ],
+  "Popcorn": [
+    {
+      "pid": 35,
+      "name": "Crispy Chicken Popcorn",
+      "price": 119,
+      "description": "Crispy and crunchy chicken popcorn.",
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 36,
+      "name": "Peri Peri Popcorn",
+      "price": 129,
+      "description": "Spicy Peri Peri flavored chicken popcorn.",
+      "foodType": "nonveg"
+    }
+  ],
+  "Fries": [
+    {
+      "pid": 37,
+      "name": "Salted Fries",
+      "price": 79,
+      "description": "Classic salted fries, crispy and delicious.",
+      "foodType": "veg"
+    },
+    {
+      "pid": 38,
+      "name": "Peri Peri Fries",
+      "price": 89,
+      "description": "Fries with a spicy Peri Peri twist.",
+      "foodType": "veg"
+    },
+    {
+      "pid": 39,
+      "name": "Cheezy Fries",
+      "price": 109,
+      "description": "Fries topped with delicious melted cheese.",
+      "foodType": "veg"
+    },
+    {
+      "pid": 40,
+      "name": "Chicken Cheezy Fries",
+      "price": 139,
+      "description": "Fries with cheesy topping and succulent chicken bits.",
+      "foodType": "nonveg"
+    }
+  ],
+  "Twister": [
+    {
+      "pid": 41,
+      "name": "Crispy Chicken Twister",
+      "price": 119,
+      "description": "Twister wrap with crispy chicken and fresh veggies.",
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 42,
+      "name": "Mexican Chicken Twister",
+      "price": 129,
+      "description": "Twister wrap filled with spicy Mexican chicken.",
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 43,
+      "name": "Peri Peri Chicken Twister",
+      "price": 139,
+      "description": "Twister wrap with a spicy Peri Peri chicken filling.",
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 44,
+      "name": "Zinger Twister",
+      "price": 139,
+      "description": "Zinger chicken wrapped in a fresh twister.",
+      "foodType": "nonveg"
+    }
+  ],
+  "Boneless Strips": [
+    {
+      "pid": 45,
+      "name": "Boneless Chicken Strips",
+      "description": "Juicy boneless chicken strips, lightly seasoned.",
+      "sizes": [
+        {"id": "1", "name": "3 pieces", "price": 129},
+        {"id": "2", "name": "6 pieces", "price": 249}
+      ],
+      "foodType": "nonveg"
+    },
+    {
+      "pid": 46,
+      "name": "Spicy Boneless Strips",
+      "description": "Boneless strips with a spicy coating.",
+      "sizes": [
+        {"id": "1", "name": "3 pieces", "price": 159},
+        {"id": "2", "name": "6 pieces", "price": 279}
+      ],
+      "foodType": "nonveg"
+    }
+  ]
+}
